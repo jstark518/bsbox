@@ -7,7 +7,7 @@
     "tsc": "tsc -p src/tsconfig.json --outDir build/js && echo 'export as namespace bsbox;' >> build/js/bsbox.d.ts",
     "rollup": "rollup -c rollup.config.js",
     "build": "npm run tsc && npm run rollup",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.config.js --single-run"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "versionedSources": "src/bsbox.ts",
   "devDependencies": {
     "@types/bootstrap": "^5.1.9",
+    "deepcopy": "^2.1.0",
     "karma": "^6.3.16",
     "karma-browserstack-launcher": "1.6.0",
     "karma-chrome-launcher": "^3.1.0",
@@ -30,18 +31,23 @@
     "karma-firefox-launcher": "^2.1.2",
     "karma-jasmine": "^4.0.1",
     "karma-jasmine-html-reporter": "^1.7.0",
+    "karma-coverage": "^2.2.0",
+    "karma-junit-reporter": "^2.0.1",
+    "karma-mocha": "^2.0.1",
     "karma-rollup-preprocessor": "^7.0.8",
     "rollup": "^2.67.2",
     "rollup-plugin-istanbul": "^3.0.0",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
     "tslint": "^6.1.3",
     "tslint-config-lddubeau": "^4.1.2",
     "typedoc": "^0.22.11",
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "deepcopy": "^2.1.0",
-    "rollup-plugin-multi-entry": "^2.1.0",
-    "rollup-plugin-sourcemaps": "^0.6.3",
-    "rollup-plugin-terser": "^7.0.2"
+    "junit": "^1.4.9",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^9.2.0"
   }
 }

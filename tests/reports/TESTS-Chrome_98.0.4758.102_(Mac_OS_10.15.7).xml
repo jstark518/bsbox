@@ -1,0 +1,1663 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 98.0.4758.102 (Mac OS 10.15.7)" package="" timestamp="2022-02-16T15:27:09" id="0" hostname="Jonathans-MacBook-Air.local" tests="25" errors="0" failures="23" time="0.056">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"/>
+  </properties>
+  <testcase name="Testing if we are complaint with Bootbox syntax is attached to the window object" time="0.003" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax"/>
+  <testcase name="Testing if we are complaint with Bootbox syntax exposes the correct public API" time="0.003" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax">
+    <failure type="">AssertionError: expected undefined to be a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:14:43)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax hideAll &quot;before each&quot; hook for &quot;should hide all .bootbox modals&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax hideAll">
+    <failure type="">ReferenceError: $ is not defined
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:23:37)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax hideAll &quot;after each&quot; hook for &quot;should hide all .bootbox modals&quot;" time="0.001" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax hideAll">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:28:25)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal &quot;before each&quot; hook for &quot;does not remove the dialog&quot;" time="0.028" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal">
+    <failure type="">TypeError: Cannot stub non-existent property remove
+    at Function.stub (node_modules/sinon/pkg/sinon.js:3695:15)
+    at Sandbox.stub (node_modules/sinon/pkg/sinon.js:3190:37)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:41:38)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal &quot;after each&quot; hook for &quot;does not remove the dialog&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:52:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax onHide option hide.bs.modal when triggered with the correct target &quot;before each&quot; hook for &quot;has triggered onHide function&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax onHide option hide.bs.modal when triggered with the correct target">
+    <failure type="">TypeError: this.dialog.get is not a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:95:40)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax onHidden option hidden.bs.modal when triggered with the correct target &quot;before each&quot; hook for &quot;has triggered onHidden function&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax onHidden option hidden.bs.modal when triggered with the correct target">
+    <failure type="">TypeError: this.dialog.get is not a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:123:40)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax onShow option show.bs.modal when triggered with the correct target has triggered onShow function" time="0.002" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax onShow option show.bs.modal when triggered with the correct target">
+    <failure type="">AssertionError: expected spy to have been called at least once, but it was never called
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:145:55)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined &quot;before each&quot; hook for &quot;throws the correct error&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'fn')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:153:43)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined &quot;after each&quot; hook for &quot;throws the correct error&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'fn')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:158:27)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with invalid values throws the expected error" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with invalid values"/>
+  <testcase name="Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with valid values &quot;before each&quot; hook for &quot;shows the expected OK translation&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with valid values">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'setLocale')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:203:25)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.removeLocale &quot;before each&quot; hook for &quot;falls back to the default OK translation&quot;" time="0.001" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.removeLocale">
+    <failure type="">TypeError: bootbox.removeLocale is not a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:228:25)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations with the default value When triggering the backdrop click dismiss event &quot;before each&quot; hook for &quot;does not invoke the callback&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations with the default value When triggering the backdrop click dismiss event">
+    <failure type="">ReferenceError: $ is not defined
+    at Context.e (tests/bootbox.test.js:254:17)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:268:26)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations when set to false When triggering the backdrop click dismiss event With the wrong target &quot;before each&quot; hook for &quot;does not invoke the callback&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations when set to false When triggering the backdrop click dismiss event With the wrong target">
+    <failure type="">ReferenceError: $ is not defined
+    at Context.e (tests/bootbox.test.js:254:17)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:290:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations when set to false When triggering the backdrop click dismiss event With the correct target &quot;before each&quot; hook for &quot;invokes the callback&quot;" time="0.001" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations when set to false When triggering the backdrop click dismiss event With the correct target">
+    <failure type="">TypeError: this.dialog.get is not a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:300:44)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations when set to true When triggering the backdrop click dismiss event With the wrong target &quot;before each&quot; hook for &quot;does not invoke the callback&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations when set to true When triggering the backdrop click dismiss event With the wrong target">
+    <failure type="">ReferenceError: $ is not defined
+    at Context.e (tests/bootbox.test.js:254:17)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:323:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations when set to true When triggering the backdrop click dismiss event With the correct target &quot;before each&quot; hook for &quot;invokes the callback&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations when set to true When triggering the backdrop click dismiss event With the correct target">
+    <failure type="">TypeError: this.dialog.children is not a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:333:44)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal &quot;before each&quot; hook for &quot;does not remove the dialog&quot;" time="0.007" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot stub non-existent property remove
+    at Function.stub (node_modules/sinon/pkg/sinon.js:3695:15)
+    at Sandbox.stub (node_modules/sinon/pkg/sinon.js:3190:37)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:353:38)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal &quot;after each&quot; hook for &quot;does not remove the dialog&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:363:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal &quot;before each&quot; hook for &quot;removes the dialog&quot;" time="0.006" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot stub non-existent property remove
+    at Function.stub (node_modules/sinon/pkg/sinon.js:3695:15)
+    at Sandbox.stub (node_modules/sinon/pkg/sinon.js:3190:37)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:383:38)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal &quot;after each&quot; hook for &quot;removes the dialog&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:393:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal &quot;before each&quot; hook for &quot;removes the dialog&quot;" time="0.004" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot stub non-existent property remove
+    at Function.stub (node_modules/sinon/pkg/sinon.js:3695:15)
+    at Sandbox.stub (node_modules/sinon/pkg/sinon.js:3190:37)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:413:38)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal &quot;after each&quot; hook for &quot;removes the dialog&quot;" time="0" classname="Chrome_98_0_4758_102_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:423:30)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', onHide: spy, callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', onHidden: spy, callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', onShow: spy, callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: spy}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: false, container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: false, container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: true, container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: true, container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', reusable: true, callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', reusable: false, callback: undefined}
+,Chrome 98.0.4758.102 (Mac OS 10.15.7) LOG: Object{backdrop: 'static', container: <body class="modal-open" style="overflow: hidden; padding-right: 0px;" data-bs-overflow="hidden" data-bs-padding-right="0px">
+  <!-- The scripts need to be in the body DOM element, as some test running frameworks need the body
+       to have already been created so they can insert their magic into it. For example, if loaded
+       before body, Angular Scenario test framework fails to find the body and crashes and burns in
+       an epic manner. -->
+  <script src="context.js"></script>
+  <script type="text/javascript">
+    // Configure our Karma and set up bindings
+    window.__karma__.config = {"args":[],"useIframe":true,"runInParent":false,"captureConsole":true,"clearContext":true,"allowedReturnUrlPatterns":["^https?://"],"mocha":{},"originalArgs":[]};
+
+    window.__karma__.setupContext(window);
+
+    // All served files with the latest timestamps
+    window.__karma__.files = {
+  '/base/node_modules/chai/chai.js': '08a87f5ea7f9cd4770498a9994c2a66ba01991b6',
+  '/base/node_modules/sinon/pkg/sinon.js': 'ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132',
+  '/base/node_modules/mocha/mocha.js': 'd96272dd4cf800eaa73e4808e7fe12acb3b227c8',
+  '/base/node_modules/karma-mocha/lib/adapter.js': 'a0f4bbc139407501892ac58d70c2791e7adec343',
+  '/base/tests/vendor/bootstrap-5.1.3.bundle.js': '9e673f8ced937d5eef2110f11e3f061453d0e9fd',
+  '/base/build/dist/bsbox.js': '6ba24498b289179f8bc0fa1c612d3296122d139c',
+  '/base/build/dist/bsbox.locales.js': '65c0fab9786acabb35c31f5869bc15b264447617',
+  '/base/tests/bootbox.test.js': 'a37104fc10d373b85a46fd3cba50a825e59f1da1',
+  '/base/node_modules/karma-sinon-chai/chai-adapter.js': '48db1dc77f9ea73d99732b6ffed7c886cbf76be1',
+  '/base/node_modules/sinon-chai/lib/sinon-chai.js': '9793c337d68fed45ee096c9c21b05f5e83c090e4'
+};
+
+  </script>
+  <!-- Dynamically replaced with <script> tags -->
+  <script type="text/javascript" src="/base/node_modules/chai/chai.js?08a87f5ea7f9cd4770498a9994c2a66ba01991b6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon/pkg/sinon.js?ddbe64e0d0bd221ba7ec38c0c68d29e57c5f0132" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/mocha/mocha.js?d96272dd4cf800eaa73e4808e7fe12acb3b227c8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-mocha/lib/adapter.js?a0f4bbc139407501892ac58d70c2791e7adec343" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/vendor/bootstrap-5.1.3.bundle.js?9e673f8ced937d5eef2110f11e3f061453d0e9fd" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.js?6ba24498b289179f8bc0fa1c612d3296122d139c" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/build/dist/bsbox.locales.js?65c0fab9786acabb35c31f5869bc15b264447617" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/tests/bootbox.test.js?a37104fc10d373b85a46fd3cba50a825e59f1da1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/karma-sinon-chai/chai-adapter.js?48db1dc77f9ea73d99732b6ffed7c886cbf76be1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/base/node_modules/sinon-chai/lib/sinon-chai.js?9793c337d68fed45ee096c9c21b05f5e83c090e4" crossorigin="anonymous"></script>
+  <!-- Since %SCRIPTS% might include modules, the `loaded()` call needs to be in a module too.
+   This ensures all the tests will have been declared before karma tries to run them. -->
+  <script type="module">
+    window.__karma__.loaded();
+  </script>
+  <script nomodule="">
+    window.__karma__.loaded();
+  </script>
+
+
+<div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div><div><div class="modal show" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">hi</div>
+      <div class="modal-footer">
+      <button type="button" class="btn undefined">OK</button></div>
+    </div>
+  </div>
+</div></div><div class="modal-backdrop show"></div><div></div></body>, className: 'bootprompt-alert', buttons: Object{ok: Object{label: ..., callback: ...}}, message: 'hi', callback: undefined}
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

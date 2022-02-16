@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 98.0.4758.80 (Mac OS 10.15.7)" package="" timestamp="2022-02-16T15:25:18" id="0" hostname="Jonathans-MacBook-Air.local" tests="25" errors="0" failures="21" time="0.003">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36"/>
+  </properties>
+  <testcase name="Testing if we are complaint with Bootbox syntax is attached to the window object" time="0.002" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax"/>
+  <testcase name="Testing if we are complaint with Bootbox syntax exposes the correct public API" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax">
+    <failure type="">AssertionError: expected undefined to be a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:14:43)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax hideAll &quot;before each&quot; hook for &quot;should hide all .bootbox modals&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax hideAll">
+    <failure type="">ReferenceError: $ is not defined
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:23:37)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax hideAll &quot;after each&quot; hook for &quot;should hide all .bootbox modals&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax hideAll">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:28:25)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal &quot;before each&quot; hook for &quot;does not remove the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:39:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal &quot;after each&quot; hook for &quot;does not remove the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax event listeners hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:52:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax onHide option hide.bs.modal &quot;before each&quot; hook for &quot;has triggered onHide function&quot;" time="0.001" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax onHide option hide.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:81:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax onHidden option hidden.bs.modal &quot;before each&quot; hook for &quot;has triggered onHidden function&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax onHidden option hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:109:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax onShow option show.bs.modal &quot;before each&quot; hook for &quot;has triggered onShow function&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax onShow option show.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:137:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined &quot;before each&quot; hook for &quot;throws the correct error&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'fn')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:153:43)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined &quot;after each&quot; hook for &quot;throws the correct error&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax If $.fn.modal is undefined">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'fn')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:158:27)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with invalid values throws the expected error" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with invalid values"/>
+  <testcase name="Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with valid values &quot;before each&quot; hook for &quot;shows the expected OK translation&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.addLocale with valid values">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'setLocale')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:203:25)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.removeLocale &quot;before each&quot; hook for &quot;falls back to the default OK translation&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax adding and removing locales bootbox.removeLocale">
+    <failure type="">TypeError: bootbox.removeLocale is not a function
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:228:25)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations with the default value &quot;before each&quot; hook for &quot;does not invoke the callback&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations with the default value">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:263:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations when set to false &quot;before each&quot; hook for &quot;does not invoke the callback&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations when set to false">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:280:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax backdrop variations when set to true &quot;before each&quot; hook for &quot;does not invoke the callback&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax backdrop variations when set to true">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:313:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal &quot;before each&quot; hook for &quot;does not remove the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:351:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal &quot;after each&quot; hook for &quot;does not remove the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: true dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:363:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal &quot;before each&quot; hook for &quot;removes the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:381:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal &quot;after each&quot; hook for &quot;removes the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable: false dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:393:30)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal &quot;before each&quot; hook for &quot;removes the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'OK')
+    at getText (build/dist/bsbox.js:19:70)
+    at makeButtons (build/dist/bsbox.js:65:28)
+    at mergeDialogOptions (build/dist/bsbox.js:117:22)
+    at _alert (build/dist/bsbox.js:223:28)
+    at Object.alert (build/dist/bsbox.js:218:16)
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:411:39)
+</failure>
+  </testcase>
+  <testcase name="Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal &quot;after each&quot; hook for &quot;removes the dialog&quot;" time="0" classname="Chrome_98_0_4758_80_(Mac_OS_10_15_7).Testing if we are complaint with Bootbox syntax resuable not set dialog hidden.bs.modal">
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'restore')
+    at Context.&lt;anonymous&gt; (tests/bootbox.test.js:423:30)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
