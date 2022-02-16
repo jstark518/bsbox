@@ -1,0 +1,47 @@
+{
+  "name": "bsbox",
+  "version": "1.0.0",
+  "description": "Bootstrap modal wrapper",
+  "main": "bsbox.js",
+  "scripts": {
+    "tsc": "tsc -p src/tsconfig.json --outDir build/js && echo 'export as namespace bsbox;' >> build/js/bsbox.d.ts",
+    "rollup": "rollup -c rollup.config.js",
+    "build": "npm run tsc && npm run rollup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstark518/bsbox.git"
+  },
+  "author": "Jonathan Stark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jstark518/bsbox/issues"
+  },
+  "homepage": "https://github.com/jstark518/bsbox#readme",
+  "versionedSources": "src/bsbox.ts",
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.9",
+    "karma": "^6.3.16",
+    "karma-browserstack-launcher": "1.4.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
+    "karma-detect-browsers": "^2.3.3",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.7.0",
+    "karma-rollup-preprocessor": "^7.0.8",
+    "rollup": "^2.67.2",
+    "rollup-plugin-istanbul": "^3.0.0",
+    "tslint": "^6.1.3",
+    "tslint-config-lddubeau": "^4.1.2",
+    "typedoc": "^0.22.11",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "deepcopy": "^2.1.0",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
