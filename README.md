@@ -28,6 +28,6 @@ Current plan is to not use jQuery, if possible and time permitting it may be opt
 
 ## License and copyright
 
-Please see our [license](LICENSE.md) file, and the license of the projects this is extended from: [Bootprompt](https://github.com/lddubeau/bootprompt), [Bootbox](https://github.com/makeusabrew/bootbox).
+Please see our [license](LICENSE) file, and the license of the projects this is extended from: [Bootprompt](https://github.com/lddubeau/bootprompt), [Bootbox](https://github.com/makeusabrew/bootbox).
 
 Copyright by the individual authors of respective code.
