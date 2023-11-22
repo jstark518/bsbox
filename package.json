@@ -21,7 +21,7 @@
   "homepage": "https://github.com/jstark518/bsbox#readme",
   "versionedSources": "src/bsbox.ts",
   "devDependencies": {
-    "@types/bootstrap": "^5.2.3",
+    "@types/bootstrap": "^5.2.10",
     "deepcopy": "^2.1.0",
     "karma": "^6.4.0",
     "karma-browserstack-launcher": "1.6.0",
